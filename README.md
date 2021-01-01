@@ -1,0 +1,2 @@
+# typescipt-graphql-example
+TypeScriptGraphql
