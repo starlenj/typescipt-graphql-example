@@ -1,0 +1,33 @@
+{
+  "name": "typescipt-graphql-example",
+  "version": "1.0.0",
+  "description": "TypeScriptGraphql",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc watch",
+    "start": "nodemon --config nodemon.json src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starlenj/typescipt-graphql-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starlenj/typescipt-graphql-example/issues"
+  },
+  "homepage": "https://github.com/starlenj/typescipt-graphql-example#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.9",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.19",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.9",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
